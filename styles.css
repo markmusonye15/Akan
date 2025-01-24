@@ -7,8 +7,31 @@ form {
   padding: 10px;
   border-radius: 5px;
   flex-direction: column;
+  border-spacing: 5px;
 }
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  font-size: 30px;
+}
+p {
+  font-size: medium;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px rgb(16, 14, 14);
+  border-radius: 5px;
 }
